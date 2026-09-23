@@ -95,13 +95,12 @@ export default function Footer() {
                 <div>
                   <p className="text-[10px] tracking-widest uppercase text-white/25 mb-0.5">Email</p>
                   <a
-                    href="mailto:info@dodospices.com"
+                    href="mailto:dodoagrofoodindustry@gmail.com"
                     className="text-white/50 text-[13px] hover:text-[var(--cream)] transition-colors duration-200"
-                    aria-label="Email us at info@dodospices.com (placeholder)"
+                    aria-label="Email us at dodoagrofoodindustry@gmail.com"
                   >
-                    info@dodospices.com
+                    dodoagrofoodindustry@gmail.com
                   </a>
-                  <p className="text-white/20 text-[11px] mt-0.5">[Placeholder — update email]</p>
                 </div>
               </li>
 
@@ -110,13 +109,12 @@ export default function Footer() {
                 <div>
                   <p className="text-[10px] tracking-widest uppercase text-white/25 mb-0.5">Phone</p>
                   <a
-                    href="tel:+910000000000"
+                    href="tel:+918503001234"
                     className="text-white/50 text-[13px] hover:text-[var(--cream)] transition-colors duration-200"
-                    aria-label="Call us (placeholder number)"
+                    aria-label="Call us at +91 85030 01234"
                   >
-                    +91 00000 00000
+                    +91 85030 01234
                   </a>
-                  <p className="text-white/20 text-[11px] mt-0.5">[Placeholder — update number]</p>
                 </div>
               </li>
 
@@ -124,8 +122,13 @@ export default function Footer() {
                 <MapPin size={13} className="text-[var(--chilli-red)] mt-0.5 shrink-0" aria-hidden="true" />
                 <div>
                   <p className="text-[10px] tracking-widest uppercase text-white/25 mb-0.5">Location</p>
-                  <p className="text-white/50 text-[13px]">India</p>
-                  <p className="text-white/20 text-[11px] mt-0.5">[Placeholder — update city/address]</p>
+                  <p className="text-white/50 text-[13px]">
+                    H1-230 Riico Industrial Area,
+                    <br />
+                    Tinwari, Dis. Jodhpur,
+                    <br />
+                    Rajasthan
+                  </p>
                 </div>
               </li>
             </ul>
