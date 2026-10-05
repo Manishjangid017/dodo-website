@@ -274,7 +274,7 @@ export default function Hero() {
           {/* ── RIGHT — Product image + floating badges (desktop only) ── */}
           <motion.div
             style={{ y: imageY }}
-            className="relative order-2 lg:order-2 items-center justify-center hidden lg:flex"
+            className="relative order-2 lg:order-2 items-center justify-center hidden lg:flex self-center"
           >
             {/* Glowing circle behind image */}
             <div
@@ -291,7 +291,8 @@ export default function Hero() {
               variants={heroImage}
               initial="hidden"
               animate="visible"
-              className="relative w-full aspect-[3/4] max-w-[480px] lg:max-w-none"
+              className="relative w-full max-w-[480px] lg:max-w-none"
+              style={{ maxHeight: '500px' }}
             >
               {/* Outer decorative frame */}
               <motion.div
@@ -310,7 +311,7 @@ export default function Hero() {
               />
 
               {/* Image container */}
-              <div className="relative w-full h-full overflow-hidden rounded-sm">
+              <div className="relative w-full overflow-hidden rounded-sm" style={{ height: '500px' }}>
                 <Image
                   src="/images/img-1.jpeg"
                   alt="Premium red chilli spices — export quality from India"
