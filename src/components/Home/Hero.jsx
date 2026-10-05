@@ -291,7 +291,7 @@ export default function Hero() {
               variants={heroImage}
               initial="hidden"
               animate="visible"
-              className="relative w-full max-w-[480px] lg:max-w-none"
+              className="relative w-full max-w-[480px] lg:max-w-[560px]"
               style={{ maxHeight: '500px' }}
             >
               {/* Outer decorative frame */}
