@@ -278,7 +278,7 @@ export default function Hero() {
           >
             {/* Glowing circle behind image */}
             <div
-              className="absolute inset-0 m-auto w-[75%] h-[75%] rounded-full"
+              className="absolute inset-0 m-auto w-[68%] h-[68%] rounded-full"
               style={{
                 background: 'radial-gradient(circle, rgba(192,57,43,0.22) 0%, transparent 70%)',
                 filter: 'blur(40px)',
@@ -306,7 +306,7 @@ export default function Hero() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.8, duration: 1 }}
-                className="absolute -inset-6 border border-white opacity-[0.04] rounded-sm"
+                className="absolute -inset-4 border border-white opacity-[0.04] rounded-sm"
                 aria-hidden="true"
               />
 
